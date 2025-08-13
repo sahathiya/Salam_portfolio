@@ -14,7 +14,7 @@ function Hero() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold leading-tight text-[#f6f1e7]">
             {heroData.title}
           </h1>
-          {/* <p className="text-sm text-secondary mb-4">{heroData.desciption}</p> */}
+          <p className="text-sm text-secondary mb-4">{heroData.desciption}</p>
 
 <div className="flex space-x-8 mt-6">
   <Link href="#contact">

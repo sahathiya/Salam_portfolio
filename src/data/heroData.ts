@@ -2,8 +2,8 @@
 
 export const heroData = {
     name: 'Abdu Salam',
-    title: "Digital Marketer",
-    desciption:"There wasn't a bird in the sky, but that was not what caught her attention. It was the clouds. The deep green that isn't the color of clouds, but came with these. She knew what was coming and she hoped she was prepared. ",
+    title: "Digital Marketing Executive",
+    desciption:"A passionate Digital Marketing Executive who helps brands grow their online presence through strategic campaigns, engaging content, and data-driven insights. With a creative mindset and a results-oriented approach, he transforms ideas into impactful digital experiences that connect with audiences and drive measurable success.",
     image: '/images/profile/salam-image.jpeg',
     // resumePdf: resume
 }

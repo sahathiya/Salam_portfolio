@@ -91,6 +91,7 @@
 
 import { aboutData } from '@/data/aboutData';
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 function About() {
@@ -132,12 +133,16 @@ function About() {
             {aboutData.description2}
           </p>
           <div className="flex gap-4 justify-center md:justify-start mt-3">
+           <Link href="#projects">
             <button className="px-5 py-2 bg-primary text-white rounded-md shadow-md hover:bg-primary/90 transition-all">
               Learn More
             </button>
+           </Link>
+            <Link href="#contact">
             <button className="px-5 py-2 border-2 border-primary text-primary rounded-md shadow-md hover:bg-primary hover:text-white transition-all">
               Contact Me
             </button>
+            </Link>
           </div>
         </div>
       </div>

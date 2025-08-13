@@ -19,8 +19,8 @@ export const experienceData = [
         id: 3,
         company: 'RAINHOPES',
         jobtitle: 'BUSINESS DEVELOPMENT EXECUTIVE',
-        startYear: '2021',
-        endYear: '2022',
+        startYear: '2022',
+        endYear: '2023',
         logo:"/images/experience/exp3.png"
     },
 ]

@@ -1,6 +1,7 @@
 import React from 'react'
 import { heroData } from '@/data/heroData'
 import Image from 'next/image'
+import Link from 'next/link'
 function Hero() {
   return (
 
@@ -16,9 +17,11 @@ function Hero() {
           <p className="text-sm text-secondary mb-4">{heroData.desciption}</p>
 
 <div className="flex space-x-8 mt-6">
+  <Link href="#contact">
   <button className="rounded-md bg-secondary  text-black px-6 py-2 font-medium hover:bg-primary hover:border border-secondary hover:text-white transition-colors duration-300">
     Contact
   </button>
+  </Link>
   <button className="rounded-md border border-secondary text-secondary px-6 py-2 font-medium hover:bg-secondary hover:text-black transition-colors duration-300">
     Resume
   </button>

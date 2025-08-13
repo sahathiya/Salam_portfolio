@@ -1,12 +1,20 @@
 "use client"
 import React, { useEffect, useState } from 'react'
-import { playfairDisplay , inter } from '@/lib/font'
+import { playfairDisplay  } from '@/lib/font'
 
 import Image from 'next/image'
-import { FiGithub, FiExternalLink } from 'react-icons/fi'
+import {  FiExternalLink } from 'react-icons/fi'
 import {motion} from 'framer-motion'
+interface IProjects{
+    cover:string;
+    title:string;
+    live:string
+}
 
-function ProjectCard({ project }) {
+interface IProject{
+    project:IProjects
+}
+function ProjectCard({ project }:IProject) {
     const [isPressed, setIsPressed] = useState(false)
     const [isMobile, setIsMobile] = useState(false)
 

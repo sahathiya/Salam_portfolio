@@ -7,6 +7,7 @@ interface IEducation {
   course: string;
   startYear: string;
   endYear: string;
+  logo:string;
 }
 function EducationCard({
   id,
@@ -14,15 +15,16 @@ function EducationCard({
   course,
   startYear,
   endYear,
+  logo
 }: IEducation) {
   return (
     <div
       key={id}
       className="flex flex-row items-start justify-start w-[90%] h-[140px] p-6 rounded-[20px] mb-6 transition-colors duration-200 hover:opacity-90 sm:w-full sm:p-6 sm:mb-6 sm:h-[140px] md:p-4 md:h-[130px] bg-primary30"
     >
-      <div className="flex items-center justify-center flex-shrink-0 rounded-full w-[55px] h-[55px] md:w-[45px] md:h-[45px] bg-primary">
+      <div className="flex items-center justify-center flex-shrink-0 rounded-full w-[55px] h-[55px] md:w-[45px] md:h-[45px] bg-secondary">
         <Image
-          src={"/images/svg/eduImgWhite.svg"}
+          src={logo||"/images/education/eduImgWhite.svg"}
           alt=""
           width={40}
           height={40}

@@ -21,13 +21,14 @@ function Education() {
               course={edu.course}
               startYear={edu.startYear}
               endYear={edu.endYear}
+              logo={edu.logo}
             />
           ))}
         </div>
 
         <div className="flex-[0.35] p-4 mt-4 pointer-events-none hidden md:block">
           <Image
-            src="/images/svg/eduBlack.svg"
+            src="/images/education/eduBlack.svg"
             width={400}
             height={400}
             alt="Education illustration"

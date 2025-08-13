@@ -1,6 +1,6 @@
 export const aboutData = {
     title: "Who I am",
-    description1: "My name is Fathima Sahathiya Serin. I'm a MERN Stack Developerr with expertise in JavaScript, React.js, Node.js, Express.js, and MongoDB.",
-    description2: "I am dedicated to writing clean, maintainable code and continuously enhancing my skill set. Passionate about building modern web applications, I am eager to contribute to innovative projects and collaborate with dynamic teams to gain diverse industry experience.",
+    description1: "My name is Abdu Salam. I'm a DIGITAL MARKETING EXECUTIVE with over 2+ years of experience creating and managing online campaigns across social media and other digital channels.",
+    description2: "I specialize in developing effective ad strategies, writing compelling ad copy,and generating high-quality leads for businesses in sectors such as education, hospitality, events, and retail. With a strong understanding of audience targeting, content planning, and performance optimization, I help brands grow their online presence and achieve measurable marketing goals.",
     image: 2
 }

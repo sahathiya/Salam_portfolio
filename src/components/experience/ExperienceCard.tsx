@@ -7,6 +7,7 @@ interface IExperience {
   jobtitle: string;
   startYear: string;
   endYear: string;
+logo:string;
 }
 function ExperienceCard({
   id,
@@ -14,6 +15,7 @@ function ExperienceCard({
   jobtitle,
   startYear,
   endYear,
+  logo,
 }: IExperience) {
   return (
     <div
@@ -21,9 +23,9 @@ function ExperienceCard({
       className="flex items-start justify-start w-[90%] h-[140px] md:w-full md:h-auto p-6 md:p-4 mb-6 rounded-2xl transition-colors duration-200 bg-primary30"
     >
       {/* Icon */}
-      <div className="flex items-center justify-center rounded-full w-[55px] h-[55px] flex-shrink-0 bg-primary">
+      <div className="flex items-center justify-center rounded-full w-[55px] h-[55px] flex-shrink-0 bg-secondary">
         <Image
-          src={"/images/experience/expImgBlack.svg"}
+          src={logo||"/images/experience/expImgBlack.svg"}
           alt=""
           width={36}
           height={36}

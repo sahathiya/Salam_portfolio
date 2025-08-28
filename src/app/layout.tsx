@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Abdu Salam",
-  description:"DIGITAL MARKETING EXECUTIVE",
+  description: "DIGITAL MARKETING EXECUTIVE",
 };
 
 export default function RootLayout({
@@ -24,6 +24,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+     <head>
+       <title>
+        Best Digital Marketing & SEO Expert in Malappuram | Manjeri | Kerala{" "}
+      </title>
+
+      <meta
+        name="description"
+        content="Boost your business with the best Digital Marketing & SEO expert in Malappuram, Manjeri, Kerala. Grow online visibility, drive leads, and achieve success with proven strategies."
+      />
+      <meta
+        name="robots"
+        content="index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      />
+     </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
